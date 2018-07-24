@@ -6,7 +6,7 @@ I've created a random fruit generator - quite simple sometimes i can't decide wh
 I'm planning to use the code in this repo to build something more interesting.
 
 
-
+![random fruit](https://github.com/Amrit-PennySoft/Fruit-generator/blob/master/assets/image.png)
 
 
 
