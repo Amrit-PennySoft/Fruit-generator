@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Play|Asap|Luckiest+Guy|Fredericka+the+Great|Khand);
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    font-size: 14px;
+}
+
+body {
+    background-color: orange;
+    
+    font-family: 'Khand', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+    color: whitesmoke;
+    font-size: 7vw;
+    text-align: center;
+}
+
+p {
+    font-family: 'Khand', sans-serif;
+    color: whitesmoke;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#fruitpicker {
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    text-align: left;
+    display: inline;
+}
+
+#chosenfruits {
+    float: right;
+    margin-right: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+select {
+    height: 2.5vw;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.5vw;
+    margin-left: 10%;
+    width: 50%;
+}
+
+.emptybox {
+    background-color: whitesmoke;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    margin: 10px;
+}
+
+.emptybox img
+{
+ max-width: 150px;
+ max-height: 120px;
+}
+
+
+.boldStuff {
+    font-size: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    width: inherit;    
+}
+
+.button-3d {
+  position:relative;
+  width: 50%;
+  display:inline-block;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    
+  color:#ecf0f1;
+  text-decoration:none;
+  border-radius:5px;
+  border:solid 1px orange;
+  background:#e67e22;
+  text-align:center;
+  padding:16px 18px 14px;
+  margin-left: 10%;
+    margin-top: 3%;
+  
+  -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+  -webkit-box-shadow: 0px 6px 0px #d35400;
+  -moz-box-shadow: 0px 6px 0px #d35400;
+  box-shadow: 0px 6px 0px #d35400;
+}
+
+.button-3d:active{
+    -webkit-box-shadow: 0px 2px 0px #d35400;
+    -moz-box-shadow: 0px 2px 0px #d35400;
+    box-shadow: 0px 2px 0px #d35400;
+    position:relative;
+    top:4px;
+}
